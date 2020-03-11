@@ -1,16 +1,98 @@
 /* Type your code here */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url('./assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%
+}
+
+header div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+table {
+	border-spacing: 10px;
+	height: 80%;
+	width: 100%;
+	border-collapse: collapse;
+	padding: 0.2rem;
+	border: 1px solid black;
+
+}
+
+th {
+	height: 50px;
+}
+
+.bon {
+	background-color: orangered;
+	color: white;
+}
+
+.bon tr td {
+	font-weight: bolder;
+	font-size: large;
+	diplay: flex;
+}
+
+.players {
+	text-decoration: none;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 2fr 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+#two {
+	display: grid;
+	grid-template-columns: 4fr 3fr;
+	text-decoration: none;
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: xx-large;
+	font-weight: 900;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: normal;
+	margin-bottom: 0em;
+}
+
+h4 {
+	margin-top: 0em;
+	font-style: oblique;
+}
+
+#gro td {
+	font-weight: bolder;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section div {
+	margin-bottom: 0em;
+}
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
+.footer {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: static;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
